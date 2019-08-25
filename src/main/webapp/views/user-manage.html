@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户管理</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>姓名</th>
+        <th>邮箱</th>
+        <th>状态</th>
+        <th>操作</th>
+    </tr>
+    <tbody id="table-content"></tbody>
+</table>
+</body>
+<script type="application/javascript">
+    function init() {
+        $.ajax({
+            url:"/",
+            success: function () {
+
+            }
+        });
+    }
+
+</script>
+</html>
